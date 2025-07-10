@@ -1,6 +1,6 @@
 # L'essentiel de git
 
-⚠️ POUR LE MOMENT CONCENTRER VOUS LES COMMANDES A MAITRISER ABSOLUMENT
+⚠️ POUR LE MOMENT CONCENTREZ VOUS LES COMMANDES A MAITRISER ABSOLUMENT
 
 ## Vocabulaire de base
 **Repository (repo) :** C'est la zone qui contient votre projet.</br>
