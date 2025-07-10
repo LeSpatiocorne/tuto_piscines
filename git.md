@@ -58,8 +58,8 @@ git add *
 ```bash
 git commit -m <commentaire>
 ```
-Le principe de commit et d'écrire l'historique de vos modification, c'est un point de repère pour la mise à jour qui vous permettra plus tard si nécessaire de retracer les changements dans leur généralité. C'est pour ça, que c'est intéressant de prendre l'habitude de donner un message court et clair de ce que vous mettez en ligne (ex: Correction dans la logique de l'ex02)
-le "-m" veut dire message.
+Le principe de commit et d'écrire l'historique de vos modification, c'est un point de repère pour la mise à jour qui vous permettra plus tard si nécessaire de retracer les changements dans leur généralité. C'est pour ça, que c'est intéressant de prendre l'habitude de donner un message court et clair de ce que vous mettez en ligne (ex: Correction dans la logique de l'ex02)</br>
+Le "-m" veut dire message.
 
 ### 4. Mettre en ligne les modifications
 ```bash
@@ -70,8 +70,8 @@ push veut dire "pousser", c'est le moment où vous envoyez sur le repo votre tra
 ### Résumer en image
 
 Voyez toutes ces opérations comme la préparation d'un coli que vous vous envériez à vous-même.
-Au moment de préparer le coli, vous faites des petites boîte avec chaque choses pour qu'elle reste bien rangés.
-Une fois que vous êtes satisfait du contenu du coli, vous l'emballez, notez les informations importantes puis l'envoyez à la poste.
+Au moment de préparer le coli, vous faites des petites boîtes avec chaque choses pour qu'elle reste bien rangés.
+Une fois que vous êtes satisfait du contenu du coli, vous l'emballez, notez les informations importantes puis l'envoyez par la poste.
 C'est exactement ce que vous faites avec add - commit - push.
 
 |add|commit|push|
