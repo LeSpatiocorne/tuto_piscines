@@ -79,14 +79,14 @@ push veut dire "pousser", c'est le moment où vous envoyez sur le repo votre tra
 
 ### Résumer en image
 
-Voyez toutes ces opérations comme la préparation d'un coli que vous vous envériez à vous-même.
-Au moment de préparer le coli, vous faites des petites boîtes avec chaque choses pour qu'elle reste bien rangés.
-Une fois que vous êtes satisfait du contenu du coli, vous l'emballez, notez les informations importantes puis l'envoyez par la poste.
+Voyez toutes ces opérations comme la préparation d'un colis que vous vous envériez à vous-même.
+Au moment de préparer le colis, vous faites des petites boîtes avec chaque choses pour qu'elle reste bien rangés.
+Une fois que vous êtes satisfait du contenu du colis, vous l'emballez, notez les informations importantes puis l'envoyez par la poste.
 C'est exactement ce que vous faites avec add - commit - push.
 
 |add|commit|push|
 |---------|---------|---------|
-|remplir le coli|ajouter les infos|envoyer|
+|remplir le colis|ajouter les infos|envoyer|
 
 ### 5. Status
 ```bash
