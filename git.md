@@ -99,7 +99,7 @@ TYPE : Nom du fichier</br></br>
 
 ex :</br>
 ```ansi
-\033[36;1Deleted : Ficher.c
+Deleted : Ficher.c
 ```
 
 ## Les commandes utiles
