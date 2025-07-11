@@ -1,6 +1,16 @@
 # L'essentiel de git
 
-⚠️ POUR LE MOMENT CONCENTREZ VOUS LES COMMANDES A MAITRISER ABSOLUMENT
+(test avant edit pour être sûr que la couleur marche : $\textcolor{magenta}{\textsf{UNICORNS}}$
+
+## Sommaire
+- [Vocabulaire de base](#vocabulaire-de-base)
+- [Les commandes à maitriser absolument](#les-commandes-à-maitriser-absolument)
+  - [1. Cloner un repository](#1-cloner-un-repository)
+  - [2. ajouter du contenu](#2-ajouter-du-contenu)
+  - [3. Mettre à jour l'historique](#3-mettre-à-jour-lhistorique)
+  - [4. Mettre en ligne les modifications](#4-Mettre-en-ligne-les-modifications)
+  - [5. Status](#5-Status)
+- [Les commandes utiles](#Les-commandes-utiles) 
 
 ## Vocabulaire de base
 **Repository (repo) :** C'est la zone qui contient votre projet.</br>
@@ -13,15 +23,13 @@ Il fait donc un nouveau pot, qu'il étiquette "Test 1" pour y mettre un seul pie
 
 Il a fait donc une nouvelle "branch", qu'il a par la suite "merge".
 
-## Comprendre le structure d'un dossier git
-PART TO COMPLETE
-
 ## Les commandes à maitriser absolument
 ```bash
 git clone
 git add
 git commit
 git push
+git status
 ```
 
 ### 1. Cloner un repository
@@ -78,12 +86,68 @@ C'est exactement ce que vous faites avec add - commit - push.
 |---------|---------|---------|
 |remplir le coli|ajouter les infos|envoyer|
 
+# 5. Status
+```bash
+git status
+```
+Avec git status, vous pouvez optenir l'état actuel de votre repository local, il va vous signaler les changements qui sont ajouté, ceux qui ne le sont pas, ce qui a changé.
+En général quand vous avez de la couleur dans le terminal, une modification non ajouté s'affiche en rouge et une modification ajouté s'affiche en vert.
+Le message est généralement construit de la façon suivante :</br>
+TYPE : Nom du fichier</br></br>
 
+ex :</br>
+```ansi
+\033[36;1Deleted : Ficher.c
+```
 
-## Les commandes utiles (mise à jour à venir)
+## Les commandes utiles
+(mise à jour en cour)
 ```bash
 git fetch
 git pull
 git branch
+git checkout / git switch
 git merge
+```
+Au cour de votre aventure dans le monde merveilleux des projets de groupes, vous allez être confronté à l'expérience de ne pas toujours avoir la dernière version d'un repository sur votre ordinateur.</br>
+Heureusement, git est bien fait et vous pouvez arranger ça !
+
+# 1. Demander au repository les dernières modifications
+```bash
+git fetch
+```
+Bien que techniquement, vous pouvez vous passer de cette commande, elle reste très utile. Elle vous permet de demander ce qui a changé sur le serveur sans immédiatement tout télécharger et écraser ce qui est déjà là localement.</br>
+
+# 2. Télécharger les dernières modifications
+```bash
+git pull
+```
+Comme le titre de cette section l'indique, pull télécharge donc la dernière version du repository sur le serveur.</br>
+
+⚠️⚠️⚠️ Si vous avez apporté des modifications à votre repository localement alors que vous n'étiez pas sur la dernière version, git ne va pas être content du tout !</br>
+Pour ne pas vous embrouyé je ne l'ai pas abordé immédiatement, mais dans la technique, git ne se contente pas de télécharger ou envoyer bêtement tout ce que vous lui donner.</br>
+Il fait toujours une vérification de **différence** et ne met à jour que ce qui a changé.</br>
+Si vous avez donc des modifications conflictuelles, il sera très  mécontant et vous demandera de régler le conflit avant d'aller plus loin.</br>
+
+### 3. Les branches, d'un bel arbre
+
+```bash
+git branch <options> <args>
+```
+Les branches sont le top du top de l'utilisation en groupe de git !</br>
+C'est votre meilleure arme contre les conflits.</br>
+Vos rushs seront un cas d'usage très concret.</br>
+Durant vos days et surtout pendant votre première semaine, vous vous êtes familiarisé avec les add/commit/push, mais n'avez sans doute jamais connu de conflit avec le repo distant. Ce qui est plutôt logique puisque jusqu'à present vous étiez l'unique personne à envoyer des choses dessus. Avec les projets de groupes, c'est une autre histoire. Imaginez ce qui peut se passer, si vous essayer d'écrire sur une feuille de papier à plusieur et au même endroit de la dite feuille. Ce n'est pas très chouette et d'ailleurs git sera très faché si vous essayez de faire ça.</br></br>
+
+L'idéal est donc de faire des embranchement pour votre projet qui vont vous permettre de continuer de travailler et de sauvegarder votre travail sans vous marcher dessus.</br>
+Pour créer une nouvelle branche, il n'y a pas besoin d'option vous pouvez juste lui donner un nom qui vous convient :</br>
+
+```bash
+git branch Unicorns
+```
+Si la branche n'existait pas après avoir utilisé cette commande, j'en ai créé une nouvelle qui s'appelle donc "Unicorns".</br>
+Si c'était une erreur je peux utiliser l'option ``--delete`` pour la supprimer et si je veux consulter la liste des branches je peux utiliser l'option ``--list``
+```bash
+git branch --delete Unicorns
+git branch --list
 ```
