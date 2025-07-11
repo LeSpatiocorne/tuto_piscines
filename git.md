@@ -1,7 +1,4 @@
 # L'essentiel de git
-
-(test avant edit pour être sûr que la couleur marche : $\textcolor{magenta}{\textsf{UNICORNS}}$
-
 ## Sommaire
 - [Vocabulaire de base](#vocabulaire-de-base)
 - [Les commandes à maitriser absolument](#les-commandes-à-maitriser-absolument)
@@ -151,3 +148,28 @@ Si c'était une erreur je peux utiliser l'option ``--delete`` pour la supprimer 
 git branch --delete Unicorns
 git branch --list
 ```
+
+### 4. Changer de branche
+Pour ça on peut utiliser deux commandes différentes, il est bon de connaître les deux car selon à quel point sera moderne votre environnement vous aurez peut-être besoin de l'une ou de l'autre.</br>
+``git checkout`` et ``git switch`` ont toutes les deux pour but de changer de branche.</br>
+```bash
+git checkout <nom de la branche>
+# OU
+git switch <nom de la branche>
+```
+Donc si on reprends le point précédent où on avait fait une branche nommée ``Unicorns``</br>
+En faisant ``git checkout Unicorns`` ou ``git switch Unicorns``, on passe sur notre branche ``Unicorns``.</br>
+Une fois dessus on peut faire tout ce qu'on ferait avec la branche principale (add/commit/push/fetch/pull, etc...) et on ne touche qu'à notre branche, donc tant qu'on reste sur la bonne branche aucun risque de créer un conflit avec la principale !</br>
+
+### 5. Merge
+Enfin la dernière commande de notre petite documentation (pour l'instant ?), le merge !</br>
+Elle permet de fusionner une branche avec une autre (voyez ça comme une mise en commun du travail).</br>
+Pour faire ça on va passer sur la branch avec laquelle on veut merger
+```bash
+git checkout <branche de destination>
+```
+Et on merge la branche, par exemple toujours notre branche ``Unicorns``
+```bash
+git merge Unicorns
+```
+Si aucun fichier ne fait conflit, alors tout se fait automatiquement !
