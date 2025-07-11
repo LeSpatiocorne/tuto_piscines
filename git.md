@@ -7,7 +7,8 @@
   - [3. Mettre à jour l'historique](#3-mettre-à-jour-lhistorique)
   - [4. Mettre en ligne les modifications](#4-Mettre-en-ligne-les-modifications)
   - [5. Status](#5-Status)
-- [Les commandes utiles](#Les-commandes-utiles) 
+- [Les commandes utiles](#Les-commandes-utiles)
+  - [1. Demander au repository les dernières modifications](1-Demander-au-repository-les-dernières-modifications)
 
 ## Vocabulaire de base
 **Repository (repo) :** C'est la zone qui contient votre projet.</br>
@@ -83,7 +84,7 @@ C'est exactement ce que vous faites avec add - commit - push.
 |---------|---------|---------|
 |remplir le coli|ajouter les infos|envoyer|
 
-# 5. Status
+### 5. Status
 ```bash
 git status
 ```
@@ -109,7 +110,7 @@ git merge
 Au cour de votre aventure dans le monde merveilleux des projets de groupes, vous allez être confronté à l'expérience de ne pas toujours avoir la dernière version d'un repository sur votre ordinateur.</br>
 Heureusement, git est bien fait et vous pouvez arranger ça !
 
-# 1. Demander au repository les dernières modifications
+### 1. Demander au repository les dernières modifications
 ```bash
 git fetch
 ```
