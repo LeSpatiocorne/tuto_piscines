@@ -1,14 +1,18 @@
-# L'essentiel de git
-## Sommaire
+# 📚 L'essentiel de git
+## 📜 Sommaire
 - [Vocabulaire de base](#vocabulaire-de-base)
 - [Les commandes à maitriser absolument](#les-commandes-à-maitriser-absolument)
   - [1. Cloner un repository](#1-cloner-un-repository)
-  - [2. ajouter du contenu](#2-ajouter-du-contenu)
+  - [2. Ajouter du contenu](#2-ajouter-du-contenu)
   - [3. Mettre à jour l'historique](#3-mettre-à-jour-lhistorique)
-  - [4. Mettre en ligne les modifications](#4-Mettre-en-ligne-les-modifications)
-  - [5. Status](#5-Status)
-- [Les commandes utiles](#Les-commandes-utiles)
-  - [1. Demander au repository les dernières modifications](1-Demander-au-repository-les-dernières-modifications)
+  - [4. Mettre en ligne les modifications](#4-mettre-en-ligne-les-modifications)
+  - [5. Status](#5-status)
+- [Les commandes utiles](#les-commandes-utiles)
+  - [1. Demander au repository les dernières modifications](#1-demander-au-repository-les-derni%C3%A8res-modifications)
+  - [2. Télécharger les dernières modifications](#2-t%C3%A9l%C3%A9charger-les-derni%C3%A8res-modifications)
+  - [3. Les branches, d'un bel arbre](#3-les-branches-dun-bel-arbre)
+  - [4. Changer de branche](#4-changer-de-branche)
+  - [5. Merge](#5-merge)
 
 ## Vocabulaire de base
 **Repository (repo) :** C'est la zone qui contient votre projet.</br>
