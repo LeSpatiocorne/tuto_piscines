@@ -21,7 +21,7 @@
 
 *Pour mieux comprendre faisons un peu de jardinage*</br>
 David fait pousser des pieds de tomate dans un terreau standard. Hier sur internet, il a lu qu'avec le super terreau MK2, ses tomates seraient encore plus belles et plus goûteuses. Seulement David voudrait tester ça sans brûler tous ses pieds.
-Il fait donc un nouveau pot, qu'il étiquette "Test 1" pour y mettre un seul pieds de tomate avec ce nouveau terreau. Si le pied de tomate si plait et que le terreau tiens ses promesses, alors un peu plus tard, il met toutes ses tomates dans ce nouveau terreau.</br>
+Il fait donc un nouveau pot, qu'il étiquette "Test 1" pour y mettre un seul pieds de tomate avec ce nouveau terreau. S'y le pied de tomate si plait et que le terreau tiens ses promesses, alors un peu plus tard, il met toutes ses tomates dans ce nouveau terreau.</br>
 
 Il a fait donc une nouvelle "branch", qu'il a par la suite "merge".
 
